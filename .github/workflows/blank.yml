@@ -33,6 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Install Kivy,
+          apt-get install libmtdev1
           python -m pip install kivy[base]
           echo Test python script,
           python show.py
