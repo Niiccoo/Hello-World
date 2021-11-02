@@ -36,7 +36,7 @@ jobs:
           echo Install Kivy,
           sudo apt-get install libmtdev1
           python -m pip install kivy[base]
-          npm install
           sudo apt-get install xvfb
           echo Test python script,
           xvfb-run --auto-servernum python show.py
+          echo Test python klaar,
